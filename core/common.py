@@ -14,7 +14,7 @@ from django.conf import settings
 from .models import Timesheet
 
 
-csv_path = '%s/GM_Coding_Exercise_Sample_Data.csv' % (settings.BASE_DIR)
+csv_path = '%s/GM_Coding_Exercise_Sample_Data.csv' % (settings.STATIC_ROOT)
 
 
 def import_to_database():

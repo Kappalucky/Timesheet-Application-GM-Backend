@@ -140,8 +140,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CORS_ORIGIN_WHITELIST = (
     "http://localhost:8080",
-    "http://192.168.86.23:8080",
-    "http://127.0.0.1:8080",
+    "https://timesheet-b122d.web.app",
 )
 
 REST_FRAMEWORK = {

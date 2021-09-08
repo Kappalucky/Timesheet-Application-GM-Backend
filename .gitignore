@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# User defined
+.DS_Store
+requirements_dev.txt
+
 # C extensions
 *.so
 
